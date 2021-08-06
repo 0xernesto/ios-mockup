@@ -49,14 +49,14 @@ struct FeedView: View {
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "doc.fill")
+                        Image(systemName: "doc.text.magnifyingglass")
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "square.and.arrow.up.fill")
+                        Image(systemName: "paperplane.fill")
                             .foregroundColor(Color.gray)
                     }
                     
@@ -101,14 +101,14 @@ struct FeedView: View {
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "doc.fill")
+                        Image(systemName: "doc.text.magnifyingglass")
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "square.and.arrow.up.fill")
+                        Image(systemName: "paperplane.fill")
                             .foregroundColor(Color.gray)
                     }
                     
@@ -154,14 +154,14 @@ struct FeedView: View {
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "doc.fill")
+                        Image(systemName: "doc.text.magnifyingglass")
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "square.and.arrow.up.fill")
+                        Image(systemName: "paperplane.fill")
                             .foregroundColor(Color.gray)
                     }
                     
@@ -202,14 +202,14 @@ struct FeedView: View {
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "doc.fill")
+                        Image(systemName: "doc.text.magnifyingglass")
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "square.and.arrow.up.fill")
+                        Image(systemName: "paperplane.fill")
                             .foregroundColor(Color.gray)
                     }
                     
@@ -254,14 +254,14 @@ struct FeedView: View {
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "doc.fill")
+                        Image(systemName: "doc.text.magnifyingglass")
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "square.and.arrow.up.fill")
+                        Image(systemName: "paperplane.fill")
                             .foregroundColor(Color.gray)
                     }
                     
@@ -306,14 +306,14 @@ struct FeedView: View {
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "doc.fill")
+                        Image(systemName: "doc.text.magnifyingglass")
                             .foregroundColor(Color.gray)
                     }
                     Spacer()
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Image(systemName: "square.and.arrow.up.fill")
+                        Image(systemName: "paperplane.fill")
                             .foregroundColor(Color.gray)
                     }
                     
