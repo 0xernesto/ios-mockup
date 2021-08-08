@@ -119,6 +119,7 @@ struct ProfileView: View {
                         Text("Skin: 8.3")
                             .font(.footnote)
                             .foregroundColor(.gray)
+
                     }
                     Spacer()
                         .frame(width: 15)
@@ -147,12 +148,16 @@ struct ProfileView: View {
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
-                                Text("Market Value:")
+                                    .padding(.horizontal, 10.0)
+                                Text("Current Value:")
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
+                                    .padding(.horizontal, 10.0)
                             }
                             VStack(alignment: .trailing){
                                 Text("$8,533.06")
@@ -160,6 +165,7 @@ struct ProfileView: View {
                                 Text("$19,215.48")
                                     .padding(.vertical, 3.7)
                             }
+                            .padding(.leading, 9.0)
                         } //End of price HStack
                     } //End of price VStack
                 } //End of main HStack
@@ -204,12 +210,16 @@ struct ProfileView: View {
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
-                                Text("Market Value:")
+                                    .padding(.horizontal, 10.0)
+                                Text("Current Value:")
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
+                                    .padding(.horizontal, 10.0)
                             }
                             VStack(alignment: .trailing){
                                 Text("$2,568.72")
@@ -217,6 +227,7 @@ struct ProfileView: View {
                                 Text("$5,651.18")
                                     .padding(.vertical, 3.7)
                             }
+                            .padding(.leading, 14.0)
                         } //End of price HStack
                     } //End of price VStack
                 } //End of main HStack
@@ -261,12 +272,16 @@ struct ProfileView: View {
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
-                                Text("Market Value:")
+                                    .padding(.horizontal, 10.0)
+                                Text("Current Value:")
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
+                                    .padding(.horizontal, 10.0)
                             }
                             VStack(alignment: .trailing){
                                 Text("$1,225.99")
@@ -274,6 +289,7 @@ struct ProfileView: View {
                                 Text("$992.79")
                                     .padding(.vertical, 3.7)
                             }
+                            .padding(.leading, 15.0)
                         } //End of price HStack
                     } //End of price VStack
                 } //End of main HStack
@@ -318,12 +334,16 @@ struct ProfileView: View {
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
-                                Text("Market Value:")
+                                    .padding(.horizontal, 10.0)
+                                Text("Current Value:")
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
+                                    .padding(.horizontal, 10.0)
                             }
                             VStack(alignment: .trailing){
                                 Text("$4,850.19")
@@ -331,6 +351,7 @@ struct ProfileView: View {
                                 Text("$7,125.35")
                                     .padding(.vertical, 3.7)
                             }
+                            .padding(.leading, 14.0)
                         } //End of price HStack
                     } //End of price VStack
                 } //End of main HStack
@@ -376,19 +397,26 @@ struct ProfileView: View {
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
-                                Text("Market Value:")
+                                    .padding(.horizontal, 10.0)
+                                Text("Current Value:")
                                     .font(.footnote)
                                     .foregroundColor(.gray)
                                     .multilineTextAlignment(.leading)
+                                    .frame(width: 90, height: 15, alignment: .leading)
                                     .padding(.vertical, 6.0)
+                                    .padding(.horizontal, 10.0)
                             }
                             VStack(alignment: .trailing){
                                 Text("$14,041.45")
+                                    .frame(width: 90, height: 15)
                                     .padding(.vertical, 3.7)
                                 Text("$22,378.63")
+                                    .frame(width: 90, height: 15)
                                     .padding(.vertical, 3.7)
                             }
+                            .padding(.leading, 1.0)
                         } //End of price HStack
                     } //End of price VStack
                 } //End of main HStack
