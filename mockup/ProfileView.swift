@@ -410,10 +410,8 @@ struct ProfileView: View {
                             }
                             VStack(alignment: .trailing){
                                 Text("$14,041.45")
-                                    .frame(width: 90, height: 15)
                                     .padding(.vertical, 3.7)
                                 Text("$22,378.63")
-                                    .frame(width: 90, height: 15)
                                     .padding(.vertical, 3.7)
                             }
                             .padding(.leading, 1.0)

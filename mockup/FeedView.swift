@@ -35,8 +35,13 @@ struct FeedView: View {
                         print("button pressed")
                     }) {
                         Text("TSLA")
-                            .font(.headline)
-                            .foregroundColor(Color.blue)
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .padding(.all, 5)
+                            .frame(width: 65.0, height: 25.0)
+                            .background(Color("teal"))
+                            .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
                     }
                     Spacer()
                     Button(action: {
@@ -87,8 +92,13 @@ struct FeedView: View {
                         print("button pressed")
                     }) {
                         Text("AAPL")
-                            .font(.headline)
-                            .foregroundColor(Color.blue)
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .padding(.all, 5)
+                            .frame(width: 65.0, height: 25.0)
+                            .background(Color("teal"))
+                            .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
                     }
                     Spacer()
                     Button(action: {
@@ -140,8 +150,13 @@ struct FeedView: View {
                         print("button pressed")
                     }) {
                         Text("MFST")
-                            .font(.headline)
-                            .foregroundColor(Color.blue)
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .padding(.all, 5)
+                            .frame(width: 65.0, height: 25.0)
+                            .background(Color("teal"))
+                            .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
                     }
                     Spacer()
                     Button(action: {
@@ -188,8 +203,13 @@ struct FeedView: View {
                         print("button pressed")
                     }) {
                         Text("TSLA")
-                            .font(.headline)
-                            .foregroundColor(Color.blue)
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .padding(.all, 5)
+                            .frame(width: 65.0, height: 25.0)
+                            .background(Color("teal"))
+                            .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
                     }
                     Spacer()
                     Button(action: {
@@ -240,8 +260,13 @@ struct FeedView: View {
                         print("button pressed")
                     }) {
                         Text("COIN")
-                            .font(.headline)
-                            .foregroundColor(Color.blue)
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .padding(.all, 5)
+                            .frame(width: 65.0, height: 25.0)
+                            .background(Color("teal"))
+                            .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
                     }
                     Spacer()
                     Button(action: {
@@ -280,7 +305,7 @@ struct FeedView: View {
                         .foregroundColor(Color.gray)
                 }
                 Spacer()
-                Text("Bought 0.3 shares of GOOGL at $2695.43/share.")
+                Text("Bought 0.3 shares of GOOG at $2695.43/share.")
                 Spacer()
                 Spacer()
                 Text("\"Google's cutting edge projects will continue to positively change the world we live in!\"")
@@ -291,9 +316,14 @@ struct FeedView: View {
                     Button(action: {
                         print("button pressed")
                     }) {
-                        Text("GOOGL")
-                            .font(.headline)
-                            .foregroundColor(Color.blue)
+                        Text("GOOG")
+                            .font(.subheadline)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .padding(.all, 5)
+                            .frame(width: 65.0, height: 25.0)
+                            .background(Color("teal"))
+                            .clipShape(RoundedRectangle(cornerRadius: 15, style: .continuous))
                     }
                     Spacer()
                     Button(action: {
