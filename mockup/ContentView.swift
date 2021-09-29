@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+
+// If you ever need to get mock up screenshots without the nav bar at the bottom, can simply place the code in this content view!
+
 struct ContentView: View {
     var body: some View {
         
@@ -28,6 +31,8 @@ struct ContentView: View {
                     Text("Profile")
                 }
         }
+        
+
     }
 }
 
